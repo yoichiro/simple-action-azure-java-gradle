@@ -22,10 +22,10 @@ sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
 azureWebApp {
-    resourceGroup = 'rs1'
-    appName = 'yoichirowa1'
-    pricingTier = 'F1'
-    region = 'japaneast'
+    resourceGroup = '__RESOURCE_GROUP_NAME__'
+    appName = '__APP_NAME__'
+    pricingTier = '__PRICING_TIER_NAME__'
+    region = '__LOCATION_NAME__'
     appService = {
         type = 'windows'
         javaWebContainer = 'tomcat 8.5'
